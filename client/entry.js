@@ -1,6 +1,9 @@
 import 'babel-polyfill'
 
 window.docute.init({
+  plugins: [
+    window.docuteIframe()
+  ],
   icons: [{
     icon: 'github',
     label: 'Star me on GitHub',
@@ -24,6 +27,11 @@ window.docute.init({
       title: '起步',
       path: '/start',
       source: '/docs/start.md'
+    },
+    {
+      title: '手册',
+      path: '/norms',
+      source: '/docs/norms.md'
     }
   ]
 })

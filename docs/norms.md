@@ -1,6 +1,7 @@
 ---
-title: 规范
+title: 手册
 typora-copy-images-to: ipic
+
 ---
 
 ## 项目
